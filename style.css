@@ -1,10 +1,30 @@
 .bg
 {
-    background: rgb(206, 152, 71);
+    background: rgb(255, 216, 89);
 
 }
 
 .logo img
 {
-    padding-top: 5%;
+    margin-top: 10px;
+    width: 500px;
+    
+}
+.pgInicial
+{
+ background-color: rgba(255, 255, 255, 0.747);
+ margin: 20px;
+ margin-left: 15%;
+ margin-right: 15%;
+}
+.pgInicial h2
+{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.pgInicial p
+{
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
