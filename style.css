@@ -38,7 +38,7 @@
 }
 #fundo
 {
-    background-color: rgba(182, 118, 81, 0.699);
+    background-color: rgba(122, 0, 0, 0.493);
     
 }
 
@@ -120,6 +120,7 @@
 
 #sobreNos img
 {
+    border: #96414d 5px solid;
     height: 350px;
 }
 
