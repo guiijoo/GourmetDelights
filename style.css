@@ -49,3 +49,12 @@
 {
     text-align: center;
 }
+
+#entrada, #principal, #sobremesa
+{
+    margin-top: 25px;
+    padding: 10px;
+    border: rgba(0, 0, 0, 0.295) solid 1px;
+    border-radius: 5px;
+    border-top: #c50c26 solid 2px;
+}
