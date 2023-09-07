@@ -10,10 +10,14 @@
 }
 #sobre
 {
-    background-color: rgb(189, 151, 103);
-    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
     margin-left: 15%;
     margin-right: 15%;
+    border: rgba(0, 0, 0, 0.295) solid 1px;
+    border-radius: 5px;
+    border-top: #c50c26 solid 2px;
+    background-color: white;
 }
 #sobre h2
 {
@@ -108,4 +112,41 @@
 {
     background-color: lightgray;
 }
+
+#sobreNos
+{
+    margin-top: 200px;
+}
+
+#sobreNos img
+{
+    height: 350px;
+}
+
+#historia
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#texto
+{
+    margin-right: 150px;
+    background-color: white;
+    padding: 20px;
+    border: rgba(0, 0, 0, 0.295) 1px solid;
+    border-radius: 5px;
+    border-top: #c50c26 2px solid;
+}
+
+#contato
+{
+    margin-top: 100px;
+    background-color: rgb(158, 34, 34);
+    color: white;
+    margin-bottom: 0px;
+    height: 100%;
+
+}
+
 
