@@ -58,3 +58,34 @@
     border-radius: 5px;
     border-top: #c50c26 solid 2px;
 }
+
+#entrada h2, #principal h2, #sobremesa h2
+{
+    color: #c50c26;
+}
+
+#items img
+{
+    height: 150px;
+    border: #c50c26 solid 1px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 0px;
+    padding: 0px;
+
+}
+#items
+{
+    height: 150px;
+}
+
+#nome
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+#preco
+{
+    font-weight: bold;
+}
