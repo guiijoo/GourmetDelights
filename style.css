@@ -37,3 +37,15 @@
     background-color: rgba(182, 118, 81, 0.699);
     
 }
+
+#menu
+{
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+#menu h1
+{
+    text-align: center;
+}
