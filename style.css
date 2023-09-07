@@ -1,21 +1,19 @@
-.bg
+.logo
 {
-    background: rgb(255, 216, 89);
-
+    height: 100%;
+    margin-top: 0px;
+    background-color: #c50c26;
 }
-
 .logo img
 {
-    margin-top: 10px;
-    width: 500px;
-    
+    width: 450px;
 }
 .pgInicial
 {
- background-color: rgba(255, 255, 255, 0.747);
- margin: 20px;
- margin-left: 15%;
- margin-right: 15%;
+    background-color: rgb(189, 151, 103);
+    margin: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .pgInicial h2
 {
@@ -27,4 +25,15 @@
     padding-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
+}
+#carrosel
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+#fundo
+{
+    background-color: rgba(182, 118, 81, 0.699);
+    
 }

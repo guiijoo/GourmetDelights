@@ -12,34 +12,62 @@
     <div class="logo">
         <img class="rounded-circle mx-auto d-block" src="/img/logo.png" alt="logoGourmetDelights">
     </div>
-    <!-- Carousel -->
-<div id="demo" class="slide" data-bs-ride="carousel">
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://oficinadeinverno.com.br/cdn/shop/articles/oficina-de-inverno-culinaria-dos-estados-unidos-comidas-tipicas-hamburger-capa.jpg?v=1660668677&width=500" alt="Hamburguer" class="d-block" style="width:100%">
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: rgb(158, 34, 34);">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#inicial">Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#section2">Section 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#section3">Section 3</a>
+          </li>
+        </ul>
       </div>
-      <div class="carousel-item">
-        <img src="chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+    </nav>
+
+    <!-- BASE DO CARROSEL -->
+    <div id="fundo">
+    <div id="carrosel" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- DEFINIÇÃO DE QUANTIA DE SLIDES -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carrosel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carrosel" data-bs-slide-to="1"></button>
       </div>
-      <div class="carousel-item">
-        <img src="ny.jpg" alt="New York" class="d-block" style="width:100%">
+
+      <!-- IMPLEMENTAÇÃO DOS SLIDES -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/hamburguer.png" alt="hamburguer" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/pastel.png" alt="pastel" class="d-block w-100">
+        </div>
       </div>
+
+      <!-- CONTROLE DE IMAGENS -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carrosel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carrosel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+
     </div>
-    
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
   </div>
-    <div class="pgInicial">
+
+    <div id="inicial" class="pgInicial">
         <h2>Sobre nós</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, dolor efficitur sagittis suscipit, neque enim eleifend nunc, eu semper mi lacus at quam. Curabitur quis arcu vel tortor hendrerit cursus vitae non neque. Quisque in magna nec elit eleifend gravida. Pellentesque nec tempus nulla. Donec fringilla enim augue, vitae congue odio aliquet sed. Ut interdum nec ante ac fringilla. Quisque tincidunt lectus a augue commodo viverra. Nullam tempus volutpat elit vel placerat.</p>
-        
+    </div>
+    
+    <div id="menu">
+
     </div>
 
 </body>
